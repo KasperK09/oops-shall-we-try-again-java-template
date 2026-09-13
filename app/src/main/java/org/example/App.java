@@ -6,3 +6,16 @@ public class App {
     // You can delete these comments.
   }
 }
+
+/*Please enter a value
+500
+ 
+Your value is invalid
+Please enter a value
+-100
+ 
+Your value is invalid
+Please enter a value
+45
+ 
+The value chosen by the user is 45 */
