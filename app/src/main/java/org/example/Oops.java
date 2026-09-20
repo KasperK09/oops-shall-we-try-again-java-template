@@ -18,6 +18,8 @@ public class Oops {
       value = scanner.nextInt();
     }
 
+    scanner .close();
+
     return value;
   }
 }
