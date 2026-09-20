@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Oops {
 
-  public int getInput(int lowerBound, int upperBound,
-                      String prompt, String errorMessage) {
+  public int getInput(int lowerBound, int upperBound, String prompt, String errorMessage) {
 
     Scanner scanner = new Scanner(System.in);
 

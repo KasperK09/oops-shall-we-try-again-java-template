@@ -17,6 +17,7 @@ public class App {
   }
 }
 
+//example out put (program should behave like this)
 /*Please enter a value
 500
  

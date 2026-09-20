@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class OopsTest {
 
-  //test for 45
+  //test for 45 (should work)
   @Test
   void testValidInput() {
     String input = "45\n";
@@ -26,7 +26,7 @@ class OopsTest {
     assertEquals(45, result);
   }
 
-  //test for 
+  //test for 500 (should not work)
   @Test
   void testInvalidInput() {
     String input = "500\n45\n";
@@ -44,6 +44,7 @@ class OopsTest {
     assertEquals(45, result);
   }
 
+  //test for 0 (should work)
   @Test
   void testLowerBoundary() {
     String input = "0\n";
@@ -61,6 +62,7 @@ class OopsTest {
     assertEquals(0, result);
   }
 
+  //test for 100 (should work)
   @Test
   void testUpperBoundary() {
     String input = "100\n";
