@@ -1,9 +1,23 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Oops {
-  public int getInput() {
-    // Implement your function here. You can delete these comments and the "return 0" below.
-    // You will need to fill in the arguments to `getInput` as per the acceptance criteria.
-    return 0;
+
+  public int getInput(int lowerBound, int upperBound,
+                      String prompt, String errorMessage) {
+
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.println(prompt);
+    int value = scanner.nextInt();
+
+    while (value < lowerBound || value > upperBound) {
+      System.out.println(errorMessage);
+      System.out.println(prompt);
+      value = scanner.nextInt();
+    }
+
+    return value;
   }
 }

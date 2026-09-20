@@ -1,9 +1,19 @@
 package org.example;
 
 public class App {
+
   public static void main(String[] args) {
-    // Exercise your `getInput` function here in this driver program.
-    // You can delete these comments.
+
+    Oops oops = new Oops();
+
+    int value = oops.getInput(
+        0,
+        100,
+        "Please enter a value",
+        "Your value is invalid"
+    );
+
+    System.out.println("The value chosen by the user is " + value);
   }
 }
 
